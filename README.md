@@ -30,3 +30,11 @@ Project 3
 ###### Updated these packages with the with the command "sudo apt update" with the "sudo giving admin privelages.
 ###### After which the Apache package was installed using the "sudo apt install apache2" command
 <img width="735" alt="sudo apt and apache2 instl" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/f4be9849-17c6-444a-ba45-67d2d818a64e">
+
+
+## Verifying Apache
+###### Verified that Apache was running as a service in the os with the command "sudo systemctl status apache2"
+<img width="653" alt="apache2 verifucation" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/9d7c1cd6-cd36-4dbe-b7ac-fb0a8565d137">
+
+## Editing Inbound Rule
+###### Edited inbound rule such that connection through port 80 is allowed and from any ip address.<img width="1271" alt="editing inbound rule" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/b90f17dd-51aa-422a-a2e3-f19a52b4b278">

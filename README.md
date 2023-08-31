@@ -24,3 +24,9 @@ Project 3
 ###### Connected to the EC2 instance by running the command "ssh -i <private-key-name>.pem ubuntu@<Public-IP-address>"
 <img width="598" alt="starting ubuntu" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/26d1bd55-66c9-4463-b6f2-404f2108b137">
 
+
+## Installing Apache & Installing Firewall
+###### Updated a list of packages in package manager
+###### Updated these packages with the with the command "sudo apt update" with the "sudo giving admin privelages.
+###### After which the Apache package was installed using the "sudo apt install apache2" command
+<img width="735" alt="sudo apt and apache2 instl" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/f4be9849-17c6-444a-ba45-67d2d818a64e">

@@ -157,3 +157,5 @@ Project 3
 ##### Also with the format `http://<Public-DNS-Name>:80` (testing using the public DNS)
 <img width="1280" alt="web test dns" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/fa12acc7-14e6-4333-9966-6a156cea7988">
 
+
+---------------------------------![Alt Text](https://cssbud.com/wp-content/uploads/2021/05/thanks-for-your-time.gif)---------------------------------------------

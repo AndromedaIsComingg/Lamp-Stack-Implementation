@@ -68,3 +68,27 @@ Project 3
 ##### The "mysql> exit" command was used to exit the MySQL console.
 
 <img width="580" alt="login test   exit" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/ed835c52-1429-4213-b3a9-4c8eac184d0c">
+
+
+## Istalling PHP
+##### In order to proccess codes to display dynamic content to the end users, PHP is the package to install.
+##### In addition to PHP, we install other features like, php-mysql and libapache2-mod-php
+##### These 3 packages were insatalled at once with the command "sudo apt install php libapache2-mod-php php-mysql"
+<img width="1082" alt="PHP   co install" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/ccc93fde-09c5-4c14-9e81-59d20cbb1670">
+
+##### Afterwhich the version of PHP was confirmed using the command "php -v" and the verision is 8.1.2
+<img width="563" alt="PHP version" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/06ad99df-10a1-4037-8dfa-af2760f14958">
+
+
+##### Changing the order of files in the default directory index such that index.php file will take precedent over index.html
+##### This was done using the command "sudo vim /etc/apache2/mods-enabled/dir.conf"
+<img width="715" alt="Vim command" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/54b1ced0-0364-499c-a80a-0967edce9611">
+
+
+##### This order was edited using the insert mode "i" in the vim editor.
+##### Chnages were written and vim was exited with the command ":wq!"
+<img width="708" alt="Vim" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/ec0e8c3e-ae9e-4bde-8897-e999fe2f2fe8">
+
+
+
+

@@ -3,18 +3,18 @@ Project 3
 
 
 ## AWS Account & EC2 Instance
-###### Created an AWS Account and spinned an EC2 instance name `For Instance`
+###### Created an AWS Account and spinned an EC2 instance named `For Instance`
 <img width="1280" alt="AWS Acct" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/14e2925b-50d3-4442-8bae-1dbc8768da8a">
 
 
 ## Private Key
 ###### Created and downloaded a private key named `1stkey`
-###### The .pem file was saved in the download folder
+###### The .pem file was saved in the "Downloads" folder as shown below
 
 <img width="320" alt="pem file in dwnlds" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/d73e3fac-39ac-42ef-a5d3-844018d53cbe">
 
 
-###### From Terminal, working directory was changed to the download folder
+###### From Terminal, working directory was changed to the "Downloads" folder
 <img width="272" alt="cd Downloads" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/f0d64650-0ac8-40d6-b2ae-5177940e2a91">
 
 ###### From Terminal, permission was changed for the private key.
@@ -25,10 +25,10 @@ Project 3
 <img width="598" alt="starting ubuntu" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/26d1bd55-66c9-4463-b6f2-404f2108b137">
 
 
-## Installing Apache & Installing Firewall
+## Installing Apache & Firewall
 ###### Updated a list of packages in package manager
-###### Updated these packages with the with the command `sudo apt update` with the `sudo` giving admin privelages.
-###### After which the Apache package was installed using the "sudo apt install apache2" command
+###### Updated these packages with the command `sudo apt update` with the `sudo` giving admin privelages.
+###### After which the Apache package was installed using the `sudo apt install apache2` command
 <img width="735" alt="sudo apt and apache2 instl" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/f4be9849-17c6-444a-ba45-67d2d818a64e">
 
 
@@ -42,14 +42,14 @@ Project 3
 
 
 ## Accessing Server
-###### Accessed server locally on Ubuntu shell using the curl command
+###### Accessed server locally on Ubuntu shell using the `curl` command as shown below
 <img width="917" alt="curl local host check" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/127203f3-61eb-4eb9-bd9b-15acc62df7e5">
 
 ###### Tested the Apache HTTP Server with a web browser. This done by using the public ip in the address bar.
 <img width="949" alt="apache test web" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/93072342-9964-44ef-9034-5f8a25c2bc64">
 
 
-## Installing Mysql
+## Installing MySQL
 ###### Used apt to install this software using the command `sudo apt install mysql-server`
 ###### The sudo command gives admin previlages and when prompted, installation was confirmed by typing y and then pressing enter.
 <img width="1222" alt="sudo MySQL install" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/82feb343-7c33-4cce-851c-0a29fd3d31df">
@@ -63,7 +63,7 @@ Project 3
 <img width="661" alt="user password" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/a8c63d47-187a-4499-8b24-adc24fe7a93e">
 
 
-##### When done, test to login into the MySQL console by using the command `sudo mysql -p`
+##### When done, tested to login into the MySQL console by using the command `sudo mysql -p`
 ##### The -p flag prompts for password after the root user password has been chnaged.
 ##### The "mysql> exit" command was used to exit the MySQL console.
 
@@ -85,7 +85,8 @@ Project 3
 <img width="715" alt="Vim command" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/54b1ced0-0364-499c-a80a-0967edce9611">
 
 
-##### This order was edited using the insert mode "i" in the vim editor.
+##### This order was edited using the insert mode in the vim editor.
+##### pressing "i" on the keyboard takes us to the insert mode & "esc" to exit it
 ##### Changes were written and vim was exited with the command `:wq!`
 <img width="708" alt="Vim" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/ec0e8c3e-ae9e-4bde-8897-e999fe2f2fe8">
 
@@ -98,14 +99,14 @@ Project 3
 ##### The file name is "index.php" and the directory for this file was also created with the `mkdir` command.
 <img width="577" alt="creating index php   dir" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/a09fec5c-2e45-4b07-b6aa-01a04e8b2df3">
 
-##### Inside the vim editor, added the following valid PHP code to the newly openned blank "index.php" file
+##### Inside the vim editor, the following valid PHP code was added to the newly openned blank "index.php" file
 ##### Changes were written and vim was exited with the command ":wq!"
 <img width="238" alt="adding php code" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/71a580de-64a4-454d-8644-cc0a15ceee2e">
 
 ##### Removing the Created PHP file
 ##### After confirming all relevant information via the PHP file, the newly created PHP file was further removed
 ##### as it contains sensitive information about the PHP environment and the Ubuntu Server.
-##### That was don with the command `sudo rm /var/www/projectlamp/index.php`
+##### That was done with the command `sudo rm /var/www/projectlamp/index.php`
 <img width="479" alt="removing  php file" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/c3927e8e-8a76-4c0e-89d8-b20691212f8d">
 
 
@@ -117,13 +118,14 @@ Project 3
 
 ## Creating a configuration file
 ##### Created and edited a new configuration with the vi editor in Apache's site-available directory using the code `sudo vi /etc/apache2/sites-available/projectlamp.conf:`
-##### Changes were written and vim was exited with the command ":wq!"
-
 
 <img width="581" alt="vi for  conf code" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/4ed2a4bc-d4d0-4995-b52f-1cf3f1bedfb0">
 
+##### Changes were written and vim was exited with the command ":wq!"
+
 
 <img width="414" alt="vi  conf vi" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/7a0cf692-ab19-468a-8cfd-f1b98c770f44">
+
 
 
 ##### The `ls` command was used list and confirm that the new files are available in the site-available directory
@@ -133,7 +135,7 @@ Project 3
 <img width="422" alt="enable virtual host   reload" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/b6ea6c37-b9ea-4372-abe8-e4456592162d">
 
 
-##### The default website that comes with apache was disabled using the code `sudo a2dissite 000-default`
+##### The default website that comes with Apache was disabled using the code `sudo a2dissite 000-default`
 <img width="392" alt="disable defaul web" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/0244b473-6926-4b1e-b7ae-837166046fac">
 
 ##### The configuration file was confirmed to not contain any syntax error using the following command `sudo apache2ctl configtest`

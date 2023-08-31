@@ -36,5 +36,16 @@ Project 3
 ###### Verified that Apache was running as a service in the os with the command "sudo systemctl status apache2"
 <img width="653" alt="apache2 verifucation" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/9d7c1cd6-cd36-4dbe-b7ac-fb0a8565d137">
 
+
 ## Editing Inbound Rule
 ###### Edited inbound rule such that connection through port 80 is allowed and from any ip address.<img width="1271" alt="editing inbound rule" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/b90f17dd-51aa-422a-a2e3-f19a52b4b278">
+
+
+## Accessing Server
+###### Accessed server locally on Ubuntu shell using the curl command
+<img width="917" alt="curl local host check" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/127203f3-61eb-4eb9-bd9b-15acc62df7e5">
+
+###### Tested the Apache HTTP Server with a web browser. This done by using the public ip in the address bar.
+<img width="949" alt="apache test web" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/93072342-9964-44ef-9034-5f8a25c2bc64">
+
+

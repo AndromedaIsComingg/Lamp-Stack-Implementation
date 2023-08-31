@@ -73,7 +73,7 @@ Project 3
 ## Istalling PHP
 ##### In order to proccess codes to display dynamic content to the end users, PHP is the package to install.
 ##### In addition to PHP, we install other features like, php-mysql and libapache2-mod-php
-##### These 3 packages were insatalled at once with the command "sudo apt install php libapache2-mod-php php-mysql"
+##### These 3 packages were insatalled at once with the command `sudo apt install php libapache2-mod-php php-mysql`
 <img width="1082" alt="PHP   co install" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/ccc93fde-09c5-4c14-9e81-59d20cbb1670">
 
 ##### Afterwhich the version of PHP was confirmed using the command `php -v` and the verision is 8.1.2
@@ -118,7 +118,11 @@ Project 3
 ## Creating a configuration file
 ##### Created and edited a new configuration with the vi editor in Apache's site-available directory using the code `sudo vi /etc/apache2/sites-available/projectlamp.conf:`
 ##### Changes were written and vim was exited with the command ":wq!"
+
+
 <img width="581" alt="vi for  conf code" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/4ed2a4bc-d4d0-4995-b52f-1cf3f1bedfb0">
+
+
 <img width="414" alt="vi  conf vi" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/7a0cf692-ab19-468a-8cfd-f1b98c770f44">
 
 

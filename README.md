@@ -49,3 +49,22 @@ Project 3
 <img width="949" alt="apache test web" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/93072342-9964-44ef-9034-5f8a25c2bc64">
 
 
+## Installing Mysql
+###### Used apt to install this software using the command "sudo apt install mysql-server"
+###### The sudo command gives admin previlages and when prompted, installation was confirmed by typing y and then pressing enter.
+<img width="1222" alt="sudo MySQL install" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/82feb343-7c33-4cce-851c-0a29fd3d31df">
+
+
+###### After installation, logged into the Mysql Console with the command "sudo mysql"
+<img width="561" alt="MySQL Start up" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/605ca9d8-7387-493e-ab01-18536f1da7bd">
+
+
+##### Password was set for root user using the command "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'PassWord.1';"
+<img width="661" alt="user password" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/a8c63d47-187a-4499-8b24-adc24fe7a93e">
+
+
+##### When done, test to login into the MySQL console by using the command "sudo mysql -p"
+##### The -p flag prompts for password after the root user password has been chnaged.
+##### The "mysql> exit" command was used to exit the MySQL console.
+
+<img width="580" alt="login test   exit" src="https://github.com/AndromedaIsComingg/Lamp-Stack-Implementation/assets/140917780/ed835c52-1429-4213-b3a9-4c8eac184d0c">
